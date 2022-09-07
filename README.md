@@ -1,20 +1,20 @@
-# Spring Boot Hello World Example
-Get started with the Spring Boot application, a hello world example.
+# User Guide
+## 创建EKS集群
+* [创建EKS集群](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html)
+* [安装AWS Load Balancer Controller](https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html)
+* [安装ArgoCD](https://argo-cd.readthedocs.io/en/stable/getting_started/)
 
-https://mkyong.com/spring-boot/spring-boot-hello-world-example/
+## 创建Code Commit
+* [创建CodeCommit Git Repo](https://docs.aws.amazon.com/codecommit/latest/userguide/getting-started-cc.html)
+* 请使用附件中的源代码
 
-## 1. How to start
-```bash
-$ git clone [https://github.com/mkyong/spring-boot.git](https://github.com/mkyong/spring-boot.git)
+## 创建Code build
+* [创建CodeBuild](https://docs.aws.amazon.com/codebuild/latest/userguide/getting-started.html)
 
-$ cd spring-boot-hello-world
+## 创建Code Pipeline
+* [创建CodePipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/getting-started-codepipeline.html)
 
-# Tomcat started at 8080
-$ mvn spring-boot:run
+## FAQ
+* [Why can't my AWS Load Balancer Controller find my subnet in Amazon EKS?](https://aws.amazon.com/premiumsupport/knowledge-center/eks-load-balancer-controller-subnets/)
 
-# test
-curl localhost:8080
-
-```
-
-
+* [error: You must be logged in to the server (Unauthorized)](https://stackoverflow.com/questions/50791303/kubectl-error-you-must-be-logged-in-to-the-server-unauthorized-when-accessing)
